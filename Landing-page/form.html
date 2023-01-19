@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Contact us</title>
+
+    
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="queryForm">
+    <div id="form"> 
+        <form id="form-submit" onsubmit="submit()" action="" method="post" >
+            <label> First Name: </label><br>
+            <input class="text" id="firstname" type="text" name="firstName"/>
+            <br><br>
+            <label> Last Name: </label><br>
+            <input class="text" id="lastname" type="text" name="lastName"/>
+            <br><br>
+            <label> Contact no: </label><br>
+            <input class="text" id="mbno" type="text" name="contact"/>
+            <br><br>
+            <lable> Your Email: </lable><br>
+            <input class="text" id="email" type="email" name="yourEmail"/>
+            <br><br>
+            <label>Message: </label><br>
+            <textarea class="textarea" id="message" name="YourMessage" rows="10" cols="30" value="Write your message here.."></textarea>
+            <br><br>
+            <input class="submit" type="button" value="Submit" onclick="mainForm()" />
+            <input class="submit" id="clear" type="button" value="Clear Input" onclick="submit()" />
+    
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
